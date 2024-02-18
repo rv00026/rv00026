@@ -53,8 +53,6 @@ public class LoginServlet extends HttpServlet {
 				out.println("<a href=login.jsp>Try Again!!!</a>");
 			}
 
-			
-			
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
